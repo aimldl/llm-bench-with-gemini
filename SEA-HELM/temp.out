@@ -1,0 +1,30 @@
+Based on your request, here are the error messages without the timestamps and with each message formatted to the right of the ERROR keyword.
+
+ERROR     | seahelm_evaluation    | Failed to run inference for task mt-bench and lang id
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run inference for task mt-bench and lang vi
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run inference for task mt-bench and lang th
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run inference for task mt-bench and lang tl
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | mt_bench              | Failed to run evaluation for task mt-bench and lang id
+ERROR     | mt_bench              | 'NoneType' object is not subscriptable
+ERROR     | mt_bench              | Failed to run evaluation for task mt-bench and lang vi
+ERROR     | mt_bench              | 'NoneType' object is not subscriptable
+ERROR     | mt_bench              | Failed to run evaluation for task mt-bench and lang th
+ERROR     | mt_bench              | 'NoneType' object is not subscriptable
+ERROR     | mt_bench              | Failed to run evaluation for task mt-bench and lang tl
+ERROR     | mt_bench              | 'NoneType' object is not subscriptable
+ERROR     | seahelm_evaluation    | Failed to run inference for task sentiment and lang id
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run evaluation for task sentiment and lang id
+ERROR     | seahelm_evaluation    | 'NoneType' object is not subscriptable
+ERROR     | seahelm_evaluation    | Failed to run inference for task qa and lang id
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run evaluation for task qa and lang id
+ERROR     | seahelm_evaluation    | 'NoneType' object is not subscriptable
+ERROR     | seahelm_evaluation    | Failed to run inference for task metaphor and lang id
+ERROR     | seahelm_evaluation    | Base URL is required for to get tokenized prompts
+ERROR     | seahelm_evaluation    | Failed to run evaluation for task metaphor and lang id
+ERROR     | seahelm_evaluation    | 'NoneType' object is not subscriptable
