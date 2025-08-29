@@ -42,12 +42,14 @@ DIR_NAME="output-openai"
 DIR_OUTPUT="$DIR_NAME/$NOW"
 mkdir -p "$DIR_OUTPUT"
 
-#OUTPUT_LOG="$DIR_OUTPUT/$(basename "$0")-$NOW.out"
+MODEL_NAME="gpt-4.1-nano"
+API_PROVIDER="openai"
 OUTPUT_LOG="$DIR_OUTPUT/$(basename "$0").out"
+#OUTPUT_LOG="$DIR_OUTPUT/$(basename "$0")-$NOW.out"
 
 # Define the command and its arguments
 CMD="python seahelm_evaluation.py"
-ARGS="--tasks seahelm --model_type litellm --output_dir $DIR_OUTPUT --model_name gpt-4.1-nano --model_args api_provider=openai,api_key=\$OPENAI_API_KEY"
+ARGS="--tasks seahelm --model_type litellm --output_dir $DIR_OUTPUT --model_name $MODEL_NAME --model_args api_provider=$API_PROVIDER,api_key=\$OPENAI_API_KEY"
 SKIP_TO_AVOID_ERROR="--skip_tokenize_prompts"
 OPTIONS_TESTING="--rerun_cached_results --limit 3"
 OPTIONS_SKIP_TASKS="--skip_tasks cultural,instruction_following,lindsea,multi_turn,nlg,nlr,safety"
